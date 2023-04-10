@@ -1,0 +1,36 @@
+.searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.searchbox input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #ffcb05;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.checkbox label {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.page-numbers {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .page-numbers button {
+    font-size: 1.2rem;
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #333;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .page-numbers button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
+  .page-numbers button.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
